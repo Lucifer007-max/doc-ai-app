@@ -984,12 +984,12 @@ export default function Home() {
             </div>
             <span className="text-xl font-bold text-slate-900 tracking-tight">DocAI</span>
           </div>
-          <a
+          {/* <a
             href="/privacy"
             className="text-sm font-medium text-slate-600 hover:text-blue-600 transition"
           >
             Privacy Policy
-          </a>
+          </a> */}
         </header>
 
         {/* Hero & App Details Section */}
@@ -1068,6 +1068,12 @@ export default function Home() {
           <p>
             <a href="/privacy" className="text-blue-600 hover:underline">
               Privacy Policy
+            </a>
+          </p>
+
+           <p>
+            <a href="/terms" className="text-blue-600 hover:underline">
+              Terms of Service
             </a>
           </p>
         </footer>
